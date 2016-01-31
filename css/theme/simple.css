@@ -11,8 +11,11 @@
  * GLOBAL STYLES
  *********************************************/
 body {
-  background: white;
-  background-color: white; }
+    background: url('../../images/background.png');
+    background-repeat: no-repeat;
+    background-position: 20px 20px;
+    background-color: white;
+}
 
 .reveal {
   font-family: "Lato", sans-serif;
