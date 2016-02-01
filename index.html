@@ -59,9 +59,9 @@
 
         <section>
             <section>
-                <h2>Common proplems in Javascript</h2>
+                <h2>Common problems in Javascript</h2>
 
-                <p>You know this Error?</p>
+                <p>You know this error?</p>
 
                 <p>
 						<pre><code data-trim>
@@ -129,6 +129,7 @@
                     private methods. This is a workaround for an error in the ECMAScript Language Specification which
                     causes this to be set incorrectly for inner functions
                 </blockquote>
+                <p>- Douglas Crockford</p>
             </section>
             <section>
                 <h3>Setting 'this' from Javascript</h3>
@@ -137,7 +138,7 @@
                 <script src="http://static.jsbin.com/js/embed.min.js?3.35.9"></script>
             </section>
             <section>
-                <h3>Lets see a more complex Example</h3>
+                <h3>Lets see a more complex example</h3>
                 <a class="jsbin-embed" href="http://jsbin.com/peqabo/latest/embed?html,js,output">JS Bin on
                     jsbin.com</a>
                 <script src="http://static.jsbin.com/js/embed.min.js?3.35.9"></script>
@@ -146,7 +147,7 @@
                 <h3>Control <code>this</code>-binding</h3>
                 <ul>
                     <li><code>.bind()</code> Method (ES5, Shims)</li>
-                    <li>Arrow functions <code>() => {}</code> (ES6, Typescript)</li>
+                    <li>Arrow-Functions <code>() => {}</code> (ES6, Typescript)</li>
                     <li>Some HOF provides <code>thisArg</code> (ES5):
                         <ul>
                             <li><code>arr.forEach(callback[, thisArg])</code></li>
@@ -167,7 +168,7 @@
                 <ul>
                     <li>Never trust <code>this</code> from vendor APIs</li>
                     <li>Never trust 'users' of your Code</li>
-                    <li>Use Arrow-Functions (Typescipt or ES6-Tranpiller</li>
+                    <li>Use Arrow-Functions (Typescipt or ES6-Transpiller)</li>
                     <li>Use <code>var that = this;</code> everytime(!) before using <code>this</code>
                         <ul>
                             <li>You could also use more meaningfull names</li>
